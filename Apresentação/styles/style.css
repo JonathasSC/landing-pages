@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	max-width: 1200px ;
+	margin: 0 auto;
+	font-size: 100%;
+	font-family: Ubuntu Mono;
+	background-color: #f4f4ff;
+}
+
+.profile-image {
+	border: 2px solid #292f52;
+	width: 50px;
+	border-radius: 50%;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 15px;
+	border-bottom: 1px solid #2e3142;
+}
+
+header nav {
+	font-family: PT mono;
+	display: flex;
+	gap: 40px;
+}
+
+header nav a {
+	color: #292f52;
+	font-weight:600;
+	font-size: 16px;
+}
+
+.conteudo {
+	padding: 5%;
+}
+
+.conteudo-principal {
+	padding-top: 3%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.conteudo-principal-textos {
+	display: flex;
+	flex-direction: column ;
+	padding-right: 8%;
+	gap: 40px;
+}
+
+.conteudo-principal img {
+	width: 500px;
+}
+
+.conteudo-principal-textos h2 {
+	font-size: 16pt;
+	font-weight: 600;
+}
+
+.conteudo-principal-textos h1 {
+	font-size: 50pt;
+	line-height: 30px;
+	font-weight: 600;
+}
+
+span {
+	color: #8a3eff ;
+}
+
+button {
+	background-color: #8a3eff;
+	border: none;
+	color: white;
+	height: 60px;
+	width: 50%;
+	font-size: 100%;
+	font-weight: bold;
+	border-radius: 50px;
+}
+
+.conteudo-secundario {
+	margin-top: 6%;
+	text-align: center;
+}
+
+.conteudo-secundario h3 {
+	font-size: 20pt;
+}
+
+.conhecimentos-lista {
+	text-decoration: none;
+}
+
+.conhecimentos,.metas,.conhecimentos-lista{
+	margin-bottom: 2%;
+}
+
+.conhecimento-item::marker, .metas-item::marker{
+	color: #f4f4ff;
+}
