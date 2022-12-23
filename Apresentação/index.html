@@ -5,49 +5,50 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="./styles/style.css" rel="stylesheet" type="text/css">
-	<title>Jonathas Santos</title>
+	<link href="./styles/media.css" rel="stylesheet" type="text/css">
+	<title>Jonathas Santos 2</title>
 </head>
 <body>
-	<header>
+	<header class="cabeçalho">
 		<img class="profile-image" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="imagel de perfil">
-		<nav>
-			<a href="#">Sobre</a> 
-			<a href="#">Projetos</a> 
-			<a href="#">Redes Sociais</a> 
-			<a href="#">Tecnologias</a> 
-		</nav>
+		<ul class="cabeçalho-right">
+			<li class="item"><a class="link"  href="#">Sobre</a></li>
+
+			<li class="item"><a class="link" href="#">Projetos</a></li>
+
+			<li class="item"><a class="link" href="#">Redes Sociais</a></li>
+
+			<li class="item"><a class="link" href="#">Tecnologias</a></li>
+		</ul>
 	</header>
-	<main class="conteudo">
-		<section class="conteudo-principal">
-			<aside class="conteudo-principal-textos">
-				<h1>Jonathas</h1>
-				<h1><span>Dos Santos</span></h1>
-				<h2>Sou desenvolvedor de software com paixão e curiosidade no sangue, disposto a aprender as mais diversas abstrações.</h2>
-				<button>Meus Projetos ➧</button>
-			</aside>
-			<article>
-				<img src="/Apresentação/components/image.svg">
-			</article>
-		</section>
-		<section class="conteudo-secundario">
-			<h3 class="conhecimentos">Conhecimentos</h3>
-			<ul class="conhecimentos-lista">
-				<li class="conhecimento-item"><p>Conhecimento em Python</p></li>
-				<li class="conhecimento-item"><p>Conhecimento em HTML, CSS, JavaScript</p></li>
-				<li class="conhecimento-item"><p>Experiencia em React</p></li>
-				<li class="conhecimento-item"><p>Experiencia em Django</p></li>
-				<li class="conhecimento-item"><p>Experiencia em MySQL</p></li>
-			</ul>
-			<h3 class="metas">Metas</h3>
-			<ul class="metas-lista">
-				<li class="metas-item"><p>Ser desenvolvedor full stack.</p></li>
-				<li class="metas-item"><p>Experienciar diversas Tecnologias e Ferramentas.</p></li>
-				<li class="metas-item"><p>Experienciar diversas Tecnologias e Ferramentas.</p></li>
-			</ul>
-		</section>
+
+	<main class="conteudo-principal">
+		<aside class="area-conteudo">
+			<h2 class="meu-nome">Jonathas</h2>
+			<h2 class="meu-nome"><span>Dos Santos</span></h2>
+			<p class="resumo">
+				Sou desenvolvedor de software com paixão e curiosidade no sangue, disposto a aprender as mais diversas abstrações.
+			</p>
+			<input class="meus-projetos-button" type="submit" value="Meus projetos ➧">
+		</aside>
+			
+		<img class="programmer" src="./components/images/image.svg"/>
 	</main>
-	<footer>
-		<h4>Jonathas Santos</h4>
-	</footer>
+
+	<section class="conteudo-secundario">
+		<h3 class="conhecimentos">Conhecimentos</h3>
+		<ul class="conhecimentos-lista">
+			<li class="conhecimento-item"><p>- Experiencia em MySQL</p></li>
+			<li class="conhecimento-item"><p>- Experiencia em React</p></li>
+			<li class="conhecimento-item"><p>- Experiencia em Django</p></li>
+			<li class="conhecimento-item"><p>- Conhecimento em Python</p></li>
+			<li class="conhecimento-item"><p>- Conhecimento em HTML, CSS, JavaScript</p></li>
+		</ul>
+		<h3 class="metas">Metas</h3>
+		<ul class="metas-lista">
+			<li class="metas-item"><p>- Ser desenvolvedor full stack.</p></li>
+			<li class="metas-item"><p>- Experienciar diversas Tecnologias e Ferramentas.</p></li>
+		</ul>
+	</section>	
 </body>
 </html>

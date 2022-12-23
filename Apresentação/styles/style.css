@@ -13,77 +13,94 @@ body {
 	max-width: 1200px ;
 	margin: 0 auto;
 	font-size: 100%;
+	padding: 0 20px;
 	font-family: Ubuntu Mono;
 	background-color: #f4f4ff;
 }
 
 .profile-image {
-	border: 2px solid #292f52;
+	border: 2px solid #8a3eff;
 	width: 50px;
 	border-radius: 50%;
 }
-
-header {
-	width: 100%;
+.cabeçalho {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	padding: 15px;
-	border-bottom: 1px solid #2e3142;
+	padding: 15px 15px 0 15px;
 }
 
-header nav {
-	font-family: PT mono;
+.cabeçalho-right{
 	display: flex;
-	gap: 40px;
+	gap: 4vh;
+	flex-direction: row;
+	margin: 20px;
 }
 
-header nav a {
-	color: #292f52;
-	font-weight:600;
-	font-size: 16px;
+.cabeçalho-right li::marker{
+	color: #f4f4ff00;
 }
 
-.conteudo {
-	padding: 5%;
+.title {
+	flex-direction: column;
+	line-height: 30px;
+	color: #0e0e0e;
+	text-decoration: none;
 }
 
 .conteudo-principal {
-	padding-top: 3%;
+	justify-content: center;
 	display: flex;
 	flex-direction: row;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	align-items: center;
-	justify-content: space-around;
+	border-bottom: 1px solid #b7b7d6;
+	border-top: 1px solid #b7b7d6;
 }
 
-.conteudo-principal-textos {
+.link {
+	font-family: PT mono;
+	color: #742edd;
+	font-weight:600;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.link:hover {
+	background-color: #742edd;
+	color: #f4f4ff;
+	transition: all ease 0.5s;
+}
+
+.area-conteudo {
 	display: flex;
-	flex-direction: column ;
-	padding-right: 8%;
-	gap: 40px;
+	flex-direction: column;
+	gap: 30px;
+	margin: 0 40px;
 }
 
-.conteudo-principal img {
-	width: 500px;
-}
-
-.conteudo-principal-textos h2 {
+.resumo {
 	font-size: 16pt;
 	font-weight: 600;
 }
 
-.conteudo-principal-textos h1 {
-	font-size: 50pt;
+img {
+	margin: 0 50px;
+	width: 500px;
+}
+
+.meu-nome {
+	font-family: Ubuntu Mono;
 	line-height: 30px;
-	font-weight: 600;
+	font-size: 50pt;
 }
 
-span {
-	color: #8a3eff ;
-}
-
-button {
+.meus-projetos-button{
 	background-color: #8a3eff;
 	border: none;
 	color: white;
@@ -94,9 +111,21 @@ button {
 	border-radius: 50px;
 }
 
+span {
+	color: #8a3eff;
+}
+
 .conteudo-secundario {
-	margin-top: 6%;
+	display: flex;
+	flex-direction: column;
+	gap: 2%;
+	margin-top: 2%;
 	text-align: center;
+}
+
+.conteudo-secundario p {
+	color: #742edd;
+	font-family: PT Mono;
 }
 
 .conteudo-secundario h3 {
