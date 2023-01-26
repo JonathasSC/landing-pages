@@ -132,14 +132,13 @@ span {
 	font-size: 20pt;
 }
 
-.conhecimentos-lista {
-	text-decoration: none;
-}
-
 .conhecimentos,.metas,.conhecimentos-lista{
 	margin-bottom: 2%;
 }
 
-.conhecimento-item::marker, .metas-item::marker{
+.conhecimento-item::marker,
+.metas-item::marker,
+.frameworks-item::marker,
+.databases-item::marker{
 	color: #f4f4ff;
 }
